@@ -19,6 +19,8 @@ pub fn convert_to_format(input: &[u8], format: &str) -> Result<Vec<u8>, JsValue>
         "tif" | "tiff" => ImageFormat::Tiff,
         "webp" => ImageFormat::WebP,
         "bmp" => ImageFormat::Bmp,
+        "ico" => ImageFormat::Ico,
+        "avif" => ImageFormat::Avif,
         _ => return Err(JsValue::from_str("Formato de salida no soportado")),
     };
 

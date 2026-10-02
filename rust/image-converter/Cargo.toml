@@ -17,5 +17,7 @@ features = [
     "png",
     "tiff",
     "webp",
-    "bmp"
+    "bmp",
+    "ico",
+    "avif"
 ]
